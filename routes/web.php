@@ -19,3 +19,6 @@ use App\Models\User;
 Route::resource('eloquent', UserControllerEloquent::class)->names('eloquent');
 Route::resource('query-builder', UserControllerQueryBuilder::class)->names('query-builder');
 
+Route::get('hello', function(){
+    return 'hello';
+});
