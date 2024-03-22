@@ -14,7 +14,7 @@ class FCM
 
     public function __construct()
     {
-        self::$firebaseKey  =  config('app.fcm_key');
+        self::$firebaseKey = config('app.fcm_key');
     }
 
     public static function ios($regids = [])
@@ -66,7 +66,7 @@ class FCM
             $response = Http::withHeaders([
                 'Authorization' => "key=" . self::$firebaseKey
             ])->post(self::$firebaseUrl, $postData);
-            return  $response->json();
+            return $response->json();
         }
     }
 }
