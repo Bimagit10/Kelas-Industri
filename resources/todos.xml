@@ -1,0 +1,16 @@
+<?xml version="1.0" enconding="UTF-8" ?>
+<root>
+<altivitas>
+<nama_aktivitas>Belajar</aktivitas>
+<tanggal_aktivitas>23 maret 2024</tanggal>
+<siswa>andini</siswa>
+</aktivitas> 
+<aktivitas>
+ 
+ <nama_aktivitas>Coding</aktivitas>
+ <tanggal_aktivitas>23 maret 2024</tanggal>
+ <siswa>bima</siswa>
+
+ </aktivitas>
+ </root>
+ 
